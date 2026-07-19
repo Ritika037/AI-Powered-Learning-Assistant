@@ -1,0 +1,11 @@
+A data structure is a way of organizing and storing data so that it can be used efficiently. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.
+
+An array is a collection of elements stored at contiguous memory locations. Each element can be accessed directly using its index, which makes reading fast. However, inserting or deleting elements in the middle of an array can be slow, because other elements need to shift.
+
+A linked list is a sequence of nodes where each node stores data and a pointer to the next node. Unlike arrays, linked lists do not require contiguous memory, so inserting or deleting a node is fast. However, accessing an element requires traversing the list from the beginning, which makes reading slower than arrays.
+
+A stack is a data structure that follows the Last In First Out (LIFO) principle. The last element added is the first one removed. Stacks are used in function call management and undo features in software.
+
+A queue follows the First In First Out (FIFO) principle. The first element added is the first one removed. Queues are used in scheduling tasks and handling requests in order.
+
+Binary search is an algorithm used to find an element in a sorted array. It repeatedly divides the search range in half, comparing the middle element with the target value. This makes binary search much faster
